@@ -22,7 +22,7 @@ class Employees {
 
     setstatus(command){
         if (command === "hire"){this.#isHired = true}
-        else (command === "fire");this.#isHired = false
+        else if (command === "fire"){this.#isHired = false}
     }
 
 
