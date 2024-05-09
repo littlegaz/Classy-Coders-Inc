@@ -12,8 +12,8 @@ class Manager extends Employees{
     }
 
     setEmployeesManaged(employee){
-        if (employee === undefined){throw new Error("You must include and employee")};
-        else if (employee === null){throw new Error("You must include and employee")};
+        if (employee === undefined){throw new Error("You must include and employee")}
+        else if (employee === null){throw new Error("You must include and employee")}
         else this.#employeesManaged.push(employee)
     }
     
