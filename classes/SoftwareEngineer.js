@@ -15,9 +15,6 @@ class SoftwareEngineer extends Employees{
         else if (language === null){throw new Error("You must include a language")}
         else this.#programmingLanguages.push(language)
     }
-
-
-
     
 }
 
